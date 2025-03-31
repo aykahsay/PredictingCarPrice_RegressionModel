@@ -18,5 +18,56 @@ This repository contains files related to a **Linear Regression** model built us
 
 If you want to see the model using **LinearRegression**, just replace `Ridge` with `LinearRegression` in the code.
 
+
+
+Target
+
+    Target: Predicted car price
+
+Methodology
+
+    Data Preprocessing
+
+        Handle missing values
+
+        One-hot encoding for categorical features
+
+        Analyze low & high cardinality
+
+    Multicollinearity Handling
+
+        Use Variance Inflation Factor (VIF)
+
+        Reduce dimensionality with PCA & heatmaps
+
+    Modeling
+
+        Applied Ridge Regression for regularization
+
+        Evaluated performance using error metrics
+
+Key Insights
+
+    Convertible body style, rear engine location, and specific fuel systems increase price
+
+    Wagon body style tends to lower price
+
+    PCA transformation improved model efficiency
+
+Tools & Libraries
+
+    Python (pandas, numpy, seaborn, matplotlib)
+
+    scikit-learn (regression models, PCA, VIF analysis)
+
+How to Run
+
+    Install dependencies:
+
+pip install pandas numpy seaborn matplotlib scikit-learn
+
+Run the model script:
+
+    python [LinearRegression.ipynb](./path/to/your/scripts/LinearRegression.ipynb)
 Feel free to contribute or raise issues for further improvements! 🚀
 
