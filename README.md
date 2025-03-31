@@ -15,6 +15,6 @@ This repository contains files related to a **Linear Regression** model built us
 1. Load the dataset from [**`imports-85.data`**](imports-85.data).
 2. Use [**`LineaRegression.ipynb`**](LineaRegression.ipynb) to preprocess, train, and evaluate the model.
 3. Explore [**`misc/`**](misc/) for additional insights and supporting scripts.
-
+4. If you want to see the model using LinearRegression, just replace Ridge with LinearRegression in the code.
 Feel free to contribute or raise issues for further improvements! 🚀
 
